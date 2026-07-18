@@ -1,0 +1,18 @@
+let add = (a, b) => {
+    return a + b;
+};
+
+console.log("SUM =", add(20, 10));
+
+let sub = (a, b) => {
+    return a - b;
+};
+
+console.log("SUB =", sub(20, 10));
+
+let mul = (a, b) => {
+    return a * b;
+};
+
+console.log("MUL =", mul(20, 10));
+console.log("Sneha");
