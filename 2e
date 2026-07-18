@@ -1,0 +1,20 @@
+let student = {
+    rollno: 27,
+    name:  "Sneha",
+    marks:  90
+};
+console.log("Original Object: ");
+console.log(student);
+
+console.log("\n Accessing Properties");
+console.log("Name: ",student.name);
+console.log("Marks: ", student.marks);
+
+student.marks = 95;
+console.log("\n After Updating Marks");
+console.log(student);
+
+student.city = "Mumbai";
+console.log("\n After Adding City");
+console.log(student);
+console.log("Sneha");
